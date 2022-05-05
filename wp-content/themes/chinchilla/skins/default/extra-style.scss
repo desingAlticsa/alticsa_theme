@@ -1,0 +1,18 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+@import "css/_skin-vars.scss";
+
+.ua_gecko .sc_layouts_cart .sc_layouts_cart_items_short {
+    letter-spacing: 0;
+}
+
+/* Price Table - Default */
+.sc_price_default.color_style_link2 {
+    .sc_price_item_link {
+        color: var(--theme-color-inverse_link);
+    }
+}
+
+@media #{$media_lg} {
+
+}

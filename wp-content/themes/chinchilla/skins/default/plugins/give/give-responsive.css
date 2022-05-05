@@ -1,0 +1,250 @@
+@media (max-width: 1439px) {
+  .give-wrap .give-card__title {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 1279px) {
+  .give-wrap .give-grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .give-wrap .give-card__body {
+    padding: 1.8rem 1.6rem;
+  }
+  .give-wrap .give-card__title {
+    font-size: 1.5em;
+  }
+  .give-wrap .give-card__progress .income {
+    font-size: 22px;
+  }
+  .give-wrap .give-card__progress .goal-text {
+    font-size: 15px;
+  }
+
+  form[id*="give-form"] .give-donation-level-btn {
+    padding: 12px 26px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  form[id*="give-form"] .give-donation-amount .give-currency-symbol,
+  form[id*="give-form"] .give-donation-amount #give-amount,
+  form[id*="give-form"] .give-donation-amount #give-amount-text,
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label,
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    font-size: 15px;
+  }
+
+  .wp-widget-give_forms_widget button.js-give-embed-form-modal-opener,
+  form input.give-btn,
+  form button.give-btn,
+  .give-btn {
+    padding: 15px 40px 13px;
+  }
+
+  [id*="give-form"] .give-form-title {
+    margin: 0 0 20px;
+  }
+  [id*="give-form"] .give-goal-progress .raised {
+    margin-bottom: 8px;
+  }
+  [id*="give-form"] .give-goal-progress {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  form[id*="give-form"] .give-donation-level-btn {
+    line-height: 19px;
+    padding: 12px 20px 10px;
+  }
+  form[id*="give-form"] .give-donation-level-btn.give-btn-level-custom {
+    padding: 12px 30px 10px;
+  }
+  form[id*="give-form"] .give-donation-amount .give-currency-symbol,
+  form[id*="give-form"] .give-donation-amount #give-amount,
+  form[id*="give-form"] .give-donation-amount #give-amount-text,
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label,
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    padding-top: 0;
+    height: 32px;
+    line-height: 33px;
+  }
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    line-height: 33px;
+  }
+
+  [id*="give-form"] div#give-sidebar-left,
+  [id*="give-form"] div.images,
+  [id*="give-form"] div.summary {
+    width: 100%;
+    float: none;
+  }
+
+  .give-wrap .give-card__title {
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+  .give-wrap .give-card__category span {
+    line-height: 15px;
+  }
+
+  .give-modal form.give-form,
+  .give-modal form[id*="give-form"] {
+    padding: 30px;
+  }
+  .give-modal .mfp-inline-holder div.mfp-content,
+  .give-modal .mfp-ajax-holder div.mfp-content {
+    min-width: 70%;
+    max-width: 90%;
+  }
+
+  #give-recurring-form h3.give-section-break,
+  #give-recurring-form h4.give-section-break,
+  #give-recurring-form legend, form.give-form h3.give-section-break,
+  form.give-form h4.give-section-break,
+  form.give-form legend,
+  form[id*="give-form"] h3.give-section-break,
+  form[id*="give-form"] h4.give-section-break,
+  form[id*="give-form"] legend {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+}
+@media (max-width: 767px) {
+  .give-wrap .give-grid--3 {
+    grid-template-columns: 1fr;
+  }
+  .give-wrap .give-card__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .wp-widget-give_forms_widget button.js-give-embed-form-modal-opener,
+  form input.give-btn,
+  form button.give-btn,
+  .give-btn {
+    padding: 13px 38px 11px;
+  }
+
+  form[id*="give-form"] .give-donation-level-btn {
+    padding: 9px 22px 7px;
+  }
+  form[id*="give-form"] .give-donation-level-btn.give-btn-level-custom {
+    padding: 9px 30px 7px;
+  }
+  form[id*="give-form"] .give-donation-amount .give-currency-symbol,
+  form[id*="give-form"] .give-donation-amount #give-amount,
+  form[id*="give-form"] .give-donation-amount #give-amount-text,
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label,
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    height: 30px;
+    line-height: 30px;
+  }
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label,
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    float: left;
+  }
+
+  #give-recurring-form .form-row input[type="email"],
+  #give-recurring-form .form-row input[type="password"],
+  #give-recurring-form .form-row input[type="tel"],
+  #give-recurring-form .form-row input[type="text"],
+  #give-recurring-form .form-row input[type="url"],
+  #give-recurring-form .form-row select,
+  #give-recurring-form .form-row textarea,
+  form.give-form .form-row input[type="email"],
+  form.give-form .form-row input[type="password"],
+  form.give-form .form-row input[type="tel"],
+  form.give-form .form-row input[type="text"],
+  form.give-form .form-row input[type="url"],
+  form.give-form .form-row select,
+  form.give-form .form-row textarea,
+  form[id*="give-form"] .form-row input[type="email"],
+  form[id*="give-form"] .form-row input[type="password"],
+  form[id*="give-form"] .form-row input[type="tel"],
+  form[id*="give-form"] .form-row input[type="text"],
+  form[id*="give-form"] .form-row input[type="url"],
+  form[id*="give-form"] .form-row select,
+  form[id*="give-form"] .form-row textarea {
+    font-size: 15px;
+  }
+
+  #give-recurring-form h3.give-section-break,
+  #give-recurring-form h4.give-section-break,
+  #give-recurring-form legend,
+  form.give-form h3.give-section-break,
+  form.give-form h4.give-section-break,
+  form.give-form legend,
+  form[id*="give-form"] h3.give-section-break,
+  form[id*="give-form"] h4.give-section-break,
+  form[id*="give-form"] legend {
+    font-size: 1.4em;
+    line-height: 1.2em;
+  }
+
+  .give-modal form.give-form button.mfp-close {
+    right: 0;
+  }
+
+  table#give_donation_receipt .give-receipt-thead-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  table.give-table th {
+    padding: 16px 22px;
+  }
+}
+@media (max-width: 479px) {
+  .give-wrap .give-card__progress .raised {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .give-wrap .give-card__progress .income {
+    margin-right: 0;
+  }
+
+  .give-goal-progress span.income {
+    font-size: 20px;
+  }
+
+  .give-goal-progress span.goal-text {
+    font-size: 15px;
+  }
+
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label,
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    float: none;
+    display: block;
+  }
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label {
+    margin-right: 0;
+    text-align: center;
+  }
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label + .give-final-total-amount {
+    margin-top: 5px;
+  }
+  form[id*="give-form"] .give-donation-level-btn {
+    font-size: 14px;
+    padding: 10px 18px 8px;
+  }
+  form[id*="give-form"] .give-donation-level-btn.give-btn-level-custom {
+    padding: 10px 22px 8px;
+  }
+  form[id*="give-form"] .give-donation-amount .give-currency-symbol,
+  form[id*="give-form"] .give-donation-amount #give-amount,
+  form[id*="give-form"] .give-donation-amount #give-amount-text,
+  form[id*="give-form"] #give-final-total-wrap .give-donation-total-label,
+  form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
+    font-size: 14px;
+  }
+
+  .give_terms_links {
+    font-size: 15px;
+    float: none;
+  }
+}
+
+/*# sourceMappingURL=give-responsive.css.map */

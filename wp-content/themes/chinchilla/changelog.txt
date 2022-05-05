@@ -1,0 +1,19 @@
+Version: 1.2.0.0
+    Fix: CSS\PHP fixes (shortcodes\widget layouts)
+    Fix: CSS fixes (The Events Calendar, Booked)
+    Fix: Improved comppatibility with YITH Wishlist plugin.
+    Fix: WooCommerce Cart behavior on mobile devices.
+    Fix: WPML (translated page editing)
+
+Version: 1.1.1.1
+    Skin 'default' is updated to the version 1.2.1.
+    Fixed translation file
+
+Version: 1.1.1
+	Skin 'default' is updated to the version 1.2.
+
+Version: 1.1.0
+	Skin 'default' is updated to the version 1.1.
+
+Version 1.0
+	Release

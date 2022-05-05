@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,8BAA8B;AAC9B,gCAAgC;AAE5B;;;;;;oEAMwB;EACpB,YAAY,EAAE,yBAAyB;EACvC,aAAa,EAAE,yBAAyB",
+"sources": ["gutenberg.scss"],
+"names": [],
+"file": "gutenberg.css"
+}
